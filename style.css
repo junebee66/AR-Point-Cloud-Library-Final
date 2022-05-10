@@ -1,0 +1,180 @@
+body {
+  padding:    0;
+  margin:     0;
+  display: flex;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  font-family: 'Hiragino Kaku Gothic Pro';
+
+}
+
+a{
+  font-family: 'Hiragino Kaku Gothic Pro';
+}
+
+/* Cover Page */
+
+#cover{
+  display:block;
+  width: 100vw;
+  height: 100vh;
+  background-size:cover;
+  background-image: url("assets/point-cloud-cover.png");
+}
+
+  #startBtn{
+    /* width:45vw; */
+    position:absolute;
+    top:80px;
+    left:371px;
+    border: 0ch;
+    color:black;
+    font-size: 17px;
+    /* font-family: 'Hiragino Sans', 'W0'; */
+  }
+
+  #startBtn a {
+      color:black;
+      font-weight: 100;
+      font-size: 1.3em;
+      font-style: normal;
+      transition: all 500ms;
+      text-decoration: none;
+      font-family: 'Hiragino Sans', 'W5';
+  }
+      
+  #startBtn a:hover {
+      color:black;
+      font-size:30px;
+      font-size-adjust: 10px;
+      text-decoration: none;
+  }
+
+  /* #coverRight{ */
+    /* width:50vw; */
+  /* } */
+
+/* Concept Page */
+
+#concept{
+  display:block;
+  width: 100vw;
+  height: 100vh;
+  background-size:cover;
+  background-image: url("assets/point-cloud-concept.png");
+}
+
+  #conceptLeft {
+    width:70vw;
+  }
+
+  #conceptRight {
+    width:30vw;
+  }
+
+
+
+
+/* PointCloud Page */
+
+/* #pointCloud{
+  display:block;
+  width: 100vw;
+  height: 100vh;
+  background-size:cover;
+  background-image: url("assets/point-cloud.png");
+} */
+
+
+
+#pcright {
+  width: 100%;
+  height: 100%;
+  background-color: aqua;
+}
+
+  #pc_camera {
+    width: 100%;
+    height: 100%;
+    background-color:brown;
+  }
+
+#pcleft {
+  width: 100%;
+  height: 100vh;
+  display: inline;
+  justify-content: flex-end;
+  background-color:yellow;
+}
+
+
+  #keyword {
+    width: 100%;
+    /* height: 100%; */
+    color:white;
+    background-color:blue;
+  }
+
+  #pcmiddle {
+    display:flex;
+  }
+
+
+    #story {
+      width: 100%;
+      height: 80vh;
+      background-color:darkviolet;
+    }
+
+    #cameraSettings{
+      display: inline;
+    }
+
+      #cameraSliders{
+        display: inline;
+        width: 700px;
+      }
+
+      #storyExports{
+        display: inline;
+      }
+
+
+
+  #pcbottom{
+    justify-content: end;
+    background-color: chartreuse;
+  }
+
+    #lines{
+      display:flex;
+    }
+
+
+  /* Manual Page */
+
+  #goCreate {
+    display:block;
+    width: 100vw;
+    height: 100vh;
+    background-size:cover;
+    background-image: url("assets/point-cloud-manual.png");
+
+  }
+
+  #goCreateBtn {
+    width:200px;
+    height:40px;
+    position:absolute;
+    right:30px;
+    bottom:28px;
+    border-radius: 25px;
+    background-color: #84877A;
+    border: 0ch;
+    color:white;
+    font-size: 17px;
+    font-family: 'Hiragino Kaku Gothic Pro';
+  }
+
+
