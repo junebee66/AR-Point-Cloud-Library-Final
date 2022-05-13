@@ -10,7 +10,7 @@ This is an online tool for the 21st century mixed media creatives (artists, desi
 [🎥 Concept Video](https://youtu.be/0F6T9y7oQ-8)
 
 ## **🫱 How to Use?**
-![video is not loaded, please try again](assets/point_cloud_demo.mp4)
+![video is not loaded, please try again](assets/point-cloud-feature.png)
 ### **🛑 DISCLAIMER 🛑**
 This project is still in progress stage. Most functions work, but it might take up to 30 second to 1 minute to load in the very beginning for the handpose, object detection, and 3D camera library. Thank you for your patience!
 
@@ -58,7 +58,7 @@ _-Still in developing stage-_
 
 
 ## **✍🏻Process & Documentation**
-![alt text](assets/progress/console.png)
+![alt text](assets/point-cloud-sketch.png)
 **1. Matching Algorithm**
 
 For this project, I wrote an algorithm to analyze the sentence structure of user's input and match it with the part of speech sentence pattern with Bible characters descriptions, using [Rita.js](https://rednoise.org/rita/) library. 
@@ -144,6 +144,7 @@ I didn't entirely finish this part, but so far there is a drawing created using 
 
 
 ## **🛑Challenges & Struggles**
+![alt text](assets/point-cloud-user-flow.png)
 <!-- What challenges and struggles did you face? -->
 The two biggest problem I faced is to: 
 
