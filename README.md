@@ -10,38 +10,51 @@ This is an online tool for the 21st century mixed media creatives (artists, desi
 [🎥 Concept Video](https://youtu.be/0F6T9y7oQ-8)
 
 ## **🫱 How to Use?**
-![image is not loaded, please try again](assets/point-cloud-manual.png)
+![video is not loaded, please try again](assets/point_cloud_demo.mp4)
 ### **🛑 DISCLAIMER 🛑**
 This project is still in progress stage. Most functions work, but it might take up to 30 second to 1 minute to load in the very beginning for the handpose, object detection, and 3D camera library. Thank you for your patience!
 
-#### **⭐️ Website Functionality**
+### **⭐️ Website Functionality**
 >This camera converts the captured video from the user’s webcam into 3D point clouds. The user can interact (pushing/pulling) the points to create new meshes. As the user is creating, the camera will continuously scan the mesh user created to try to recognize what object it visually looks like. The detected object name will be searched into Google Books API and start generating new storyline. The final story paragraph can later be exported as .txt file for user's future usage. 
+
+**1️⃣ Camera Settings**
+> Make sure the camera consent button is checked to enable the point cloud camera start miorring web camera image into digital point cloud.
+
+**2️⃣ Remix Point Cloud**
+> The user can use their hands to move the points (in canvas) around to remix the current environment image data.
+
+**3️⃣ Drawing Angle**
+> By using the “switch camera” function and camera sliders, user can adjust to their desired camera view to start drawing
+
+**4️⃣ Story Keywords**
+> While the user draws in the canvas with their hand, the keyword box will show the object detection result of what the drawing looks like.
+
+**5️⃣ Generate Storylines**
+> When the user sees a desired object in the keyword box, the user can hit on the “generate story line” button to generate two stroyline options. By clicking on the storyline options, the storyine option clicked will be added to the story paragraph on the left. 
+
+**6️⃣ Exporting Story**
+>When finish the story, the user can click on load story to save the current story paragraph, and then click on “export story” to save as text file.
+
 
 
 ## **💡About**
 ![image is not loaded, please try again](assets/point-cloud-manual.png)
-#### **⭐️ User Input**
->User will write their fustrations in this box and explain the problems they are facing. The more descriptive the input is, the better the algorithm can match the user’s description of his/her/they’s situation to a Bible character’s experience. Once the user finish writing, clicking on the button “Match” will start the matching function.  In order to rewrite a nw set of texts, please click on the “Restart” button to clear all data.
 
-#### **⭐️ Your View**
-_- Still in developing stage -_
-
->Here, the user can see the first person view of the scenario they are in. The current version hasn’t had this function yet; however, in the future version, there will be a zoomed in drawing of the line drawing on the right in God’s view box, showcasing how from our single person point of view is usually more limited and ambiguious.
-
-#### **⭐️ God’s View**
+#### **⭐️ Point Cloud Canvas**
 _-Still in developing stage-_
 
->In this box, the user can see a top down perspective of a map drawing and generates from the user’s input. It signifys God’s point of view when looking at the Bible character’s journey. It is a full picture of what God sees about where he is leading you and where you are in his plan right now. 
+>This is a point cloud generated mirroring the current/ updating web camera image. The user can use their hands to move the points around to trigger the object recognition feature to redefine the points generated. 
 
-#### **⭐️ Bible Character**
-_- For this prototype version, the json I created only has two Bible characters-_
->This displays the Bible character that who has been through the same/similar situation as what user described in the input section. The algoritm analyzes the sentence structure of the user’s input and matches it with the bible chapters that were written with the same part of speech pattern. The algoritm analyzes the sentence structure of the user’s input and matches it with the bible chapters that were written with the same part of speech pattern. In the future version, the user can hover their mouse to the line drawings and activates bible story box to read from the actual bible verses of this bible character’s story about what happen to this character, how this character face problems, and where the character ends up being.
+>The green dots are the position of the user’s fingers mirorring in this 3D space.
+
+#### **⭐️ Keyword Box**
+>The object detection function (by Tensorflow) will identify the remix point cloud made by user (in the black canvas on the right) as any similiar looking object and display the resulted keyword here. 
 
 #### **⭐️ Character Descriptions**
 >This is an overview description of the journey the Bible character you are matched up with has gone through. This gives the user a rough idea of why he/she/they’s input is matched/similiar to the Bible character’s journey.
 
-#### **⭐️ God’s Word**
->On the bottom section, it displays the selected bible verse that God has said to the Bible character, which is also what God has said to the user.
+#### **⭐️ Switch Camera**
+>Clicking on this button will swith to a random camera view and erase the images that were cerated. It is like a reset button.
 
 
 ## **✍🏻Process & Documentation**
