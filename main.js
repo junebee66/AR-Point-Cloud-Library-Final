@@ -1,10 +1,3 @@
-
-
-
-
-
-
-
 //p5 camera below
 
 let video;
@@ -230,22 +223,22 @@ function draw(){
   show();
 }
 
-function capture(){
-  facepicture = createCapture(VIDEO, 10,10);
-  facepicture.hide();
-  texturepic = facepicture;
+// function capture(){
+//   facepicture = createCapture(VIDEO, 10,10);
+//   facepicture.hide();
+//   texturepic = facepicture;
 
 
-  // texturepic = createGraphics(width, height, [VIDEO]);
+//   // texturepic = createGraphics(width, height, [VIDEO]);
   
-  // video.loadPixels();
-  for (let y=0; y<video.height; y+=gridSize) {
-  for (let x=0; x<video.width; x+=gridSize) {
-    col = texturepic.get(x,y);
-    // console.log(col);
-  }
-  }
-}
+//   // video.loadPixels();
+//   for (let y=0; y<video.height; y+=gridSize) {
+//   for (let x=0; x<video.width; x+=gridSize) {
+//     col = texturepic.get(x,y);
+//     // console.log(col);
+//   }
+//   }
+// }
 
 function SideView(){
   // if (checkbox.checked()) {
@@ -261,7 +254,7 @@ function SideView(){
 
 function show(){
     // alphaColor = createGraphics(width, height, WEBGL);
-    // background(0);
+    background(0);
     //sliders
     X = sliderGroup[0].value();
     Y = sliderGroup[1].value();
@@ -269,6 +262,9 @@ function show(){
     centerX = sliderGroup[3].value();
     centerY = sliderGroup[4].value();
     centerZ = sliderGroup[5].value();
+
+    facepicture = createCapture(VIDEO);
+    facepicture.hide();
   
     // var x = map(mouseX, 0, width, -200, 200);
     // var y = map(mouseY, 0, height, -200, 200);
@@ -295,8 +291,8 @@ function show(){
     //Point Cloud
     gridSize = int(map(mouseX, 0,width, 15,50));
     video.loadPixels();
-    texturepic.loadPixels();
-    transpic.loadPixels();
+    // texturepic.loadPixels();
+    // transpic.loadPixels();
     // texturepic.loadPixels();
     // capture.loadPixels();
     // rotateY(frameCount/60);
@@ -414,8 +410,8 @@ function defaultTexture(){
         // fill(col[0], col[1], col[2]);
         // fill(255,0,0);
         // col = texturepic.get(x,y);
-        col = texturepic.get(x,y);
-        fill(col[0], col[1], col[2]);
+        // col = texturepic.get(x,y);
+        // fill(col[0], col[1], col[2]);
         // fill(col[0]);
           // alphaColor.fill(255);
         texture(texturepic);
@@ -440,8 +436,9 @@ function defaultTexture(){
 function facePixel(){
   // facepicture = createCapture(VIDEO);
   // facepicture.hide();
-  // transpic = facepicture;
-  transpic.loadPixels();
+  // texturepic = facepicture;
+  // texturepic.loadPixels();
+  // transpic.loadPixels();
   push();
     for (let y=0; y<video.height; y+=gridSize) {
       for (let x=0; x<video.width; x+=gridSize) {
@@ -489,11 +486,16 @@ function facePixel(){
         // fill(col[0], col[1], col[2]);
         // fill(255,0,0);
         // col = texturepic.get(x,y);
-        col = transpic.get(x,y);
+
+
+        col = video.get(x,y);
         fill(col[0], col[1], col[2]);
+
+
         // fill(col[0]);
           // alphaColor.fill(255);
-        // texture(texturepic);
+        
+          // texture(texturepic);
         // shininess(20);
         // ambientLight(50);
         // specularColor(255, 0, 0);

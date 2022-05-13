@@ -1,19 +1,25 @@
 # ✺✺✺POITORY✺✺✺
 <!-- 1-2 sentence description of assignment. Nice to include a screenshot or .gif of the site in action. -->
-
-This website serves as mental guidance for people who feel lost or frustrated at any point in life. It is hard for us to see why things happened, in the way it happens, and where it is leading to. On this website, you will be able to elevate your point of view on your situation to have a sneak peek of God’s overall plan for you.
+![image is not loaded, please try again](assets/point-cloud-img.png)
+This is an online tool for the 21st century mixed media creatives (artists, designers, writers, and more types of creator) to resolve their creativity blocks by reimagining and remixing their current space and time. As creatives, we have always imagine the world going forward with a new vision, but how do we break the habit of looking to the front and start by applying the same vision to the present in order to bridge our way to reach that ultimate future? Stories, stories are the answer.
 
 **Click here for...**
 
->[💻 Website](https://junebee66.github.io/gods_view/index.html)<br /> 
+>[💻 Website](https://junebee66.github.io/AR-Point-Cloud-World-Building-Camera/)<br /> 
 [⏯ Video Demo](https://youtu.be/JLcgsHWjtmQ)<br />
 [🎥 Concept Video](https://youtu.be/0F6T9y7oQ-8)
 
-## **💡About**
-![image is not loaded, please try again](assets/overview.jpg)
-#### **⭐️ Website Functionality**
->This website matches user’s description of their problems to a Bible character’s experience and show the Bible character’s journey with God.
+## **🫱 How to Use?**
+![image is not loaded, please try again](assets/point-cloud-manual.png)
+### **🛑 DISCLAIMER 🛑**
+This project is still in progress stage. Most functions work, but it might take up to 30 second to 1 minute to load in the very beginning for the handpose, object detection, and 3D camera library. Thank you for your patience!
 
+#### **⭐️ Website Functionality**
+>This camera converts the captured video from the user’s webcam into 3D point clouds. The user can interact (pushing/pulling) the points to create new meshes. As the user is creating, the camera will continuously scan the mesh user created to try to recognize what object it visually looks like. The detected object name will be searched into Google Books API and start generating new storyline. The final story paragraph can later be exported as .txt file for user's future usage. 
+
+
+## **💡About**
+![image is not loaded, please try again](assets/point-cloud-manual.png)
 #### **⭐️ User Input**
 >User will write their fustrations in this box and explain the problems they are facing. The more descriptive the input is, the better the algorithm can match the user’s description of his/her/they’s situation to a Bible character’s experience. Once the user finish writing, clicking on the button “Match” will start the matching function.  In order to rewrite a nw set of texts, please click on the “Restart” button to clear all data.
 
