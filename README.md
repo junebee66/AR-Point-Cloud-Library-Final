@@ -6,7 +6,7 @@ This is an online tool for the 21st century mixed media creatives (artists, desi
 **Click here for...**
 
 >[💻 Website](https://junebee66.github.io/AR-Point-Cloud-World-Building-Camera/)<br /> 
-[⏯ Video Demo](https://youtu.be/JLcgsHWjtmQ)<br />
+[⏯ Video Demo](https://youtu.be/gyd9dNDEOlQ)<br />
 [🎥 Concept Video](https://youtu.be/0F6T9y7oQ-8)
 
 ## **🫱 How to Use?**
