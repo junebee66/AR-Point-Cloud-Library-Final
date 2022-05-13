@@ -10,7 +10,7 @@ This website serves as mental guidance for people who feel lost or frustrated at
 [🎥 Concept Video](https://youtu.be/0F6T9y7oQ-8)
 
 ## **💡About**
-![image is not loaded](assets/overview.jpg)
+![image is not loaded, please try again](assets/overview.jpg)
 #### **⭐️ Website Functionality**
 >This website matches user’s description of their problems to a Bible character’s experience and show the Bible character’s journey with God.
 
