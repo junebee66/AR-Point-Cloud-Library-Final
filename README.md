@@ -75,7 +75,6 @@ _-Still in developing stage-_
 **1. WebGL p5.js function**</br>
 Originally, I was inspired by this [3D webcam point cloud](https://github.com/FollowTheDarkside/threejs-webcam-particle-visualizer) created by Hirasawa. He made the image captured in the webcam camera to convert into 3d data points that contains position data. I tried using his code and applied the handpose library onto it. However, since the original code is created by the three.js library, and handpose library is by P5, the communication between the code is not very smooth. Therefore, I thought about coding my own point cloud camera using the WebGL function. I made every pixel capture from the web camera into spheres. In the end, there will be a grid of sphere in the digital 3D space. 
 
-I first saperate bible verse and input text into individual words
 
     function setup() {
         pc_canvas = createCanvas(960, 900, WEBGL);
